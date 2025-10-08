@@ -20,6 +20,10 @@ public class Car_Chapter15 {
 		}
 		//結果を表示
 		System.out.println("ギア"+beforeGear+"から"+gear+"に切り替えました");
-		System.out.println("速度は時速" + speed + "kmです");
+		}
+	
+	//速度を出力するrunメソッドを追加
+	public void run() {
+		System.out.println("速度は時速"+speed+"kmです");
 	}
 }

@@ -9,6 +9,8 @@ public class CarExec_Chapter15 {
 		//ギアを３に変更
 		car.changeGear(3);
 		
+		//runメソッドで速度を出力
+		car.run();		
 		
 
 	}
