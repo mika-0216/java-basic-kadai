@@ -6,25 +6,22 @@ public class KatoExec_Chapter18 {
 		// TODO 自動生成されたメソッド・スタブ
 		
 		//加藤太郎
-		KatoTaro_Chapter18 taro = new KatoTaro_Chapter18();//オブジェクト作成
-		taro.familyName = "加藤";
-		taro.setGivenName();//太郎が入る
-		taro.address = "東京都中野区〇×";
-		taro.execIntroduce();
+		KatoTaro_Chapter18 katoTaro = new KatoTaro_Chapter18();//オブジェクト作成
+		//加藤太郎の名前をセットする
+		katoTaro.setGivenName();
+		//加藤太郎の自己紹介を実行する
+		katoTaro.execIntroduce();
 		
+	
 		//加藤一郎
-		KatoIchiro_Chapter18 ichiro = new KatoIchiro_Chapter18();
-		ichiro.familyName = "加藤";
-		ichiro.setGivenName(); // 一郎
-		ichiro.address = "東京都中野区〇×";
-		ichiro.execIntroduce();
+		KatoIchiro_Chapter18 katoIchiro = new KatoIchiro_Chapter18();
+		katoIchiro.setGivenName(); // 一郎
+		katoIchiro.execIntroduce();
 		
 		//加藤花子
-		KatoHanako_Chapter18 hanako = new KatoHanako_Chapter18();
-		hanako.familyName = "加藤";
-		hanako.setGivenName();//花子
-		hanako.address = "東京都中野区〇×";
-		hanako.execIntroduce();
+		KatoHanako_Chapter18  katoHanako= new KatoHanako_Chapter18();
+		katoHanako.setGivenName();//花子
+		katoHanako.execIntroduce();
 
 	}
 
