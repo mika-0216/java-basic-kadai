@@ -30,9 +30,9 @@ public class Dictionary_Chapter21 {
 	 for(int i=0; i<searchWords.length; i++) {
 			 String  words = searchWords[i];
 			 if (fruit.containsKey(words)){
-				 System.out.println(words+ "の意味は" + fruit.get(words) + "です");
+				 System.out.println(words+ "の意味は" + fruit.get(words) );
 				  }else {
-					  System.out.println(words + "は辞書に登録されていません。");
+					  System.out.println(words + "は辞書に存在しません");
 				  }
 	          }
 	     }
